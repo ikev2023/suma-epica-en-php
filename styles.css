@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;1,500&family=Poppins&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Pixelify+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;1,500&family=Kanit&family=Poppins&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html,body
+{
+    background-color: #444342;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+}
+#contenedor {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5vw; /* Utiliza una unidad relativa para el tamaño del texto */
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 2vh 0; /* Añade un pequeño margen arriba y abajo */
+}
+
+div 
+{
+    text-align: center;
+    margin-bottom: auto;
+}
+
+input 
+{
+    font-size: 3vw; /* Utiliza una unidad relativa para el tamaño del texto del input */
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 1vh 2vw; /* Ajusta el padding del input para que sea más cómodo en dispositivos móviles */
+    margin: 3px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+button
+{
+    font-size: 2vw;
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 1vh 2vw;
+    margin: 4px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+button:hover
+{
+    background-color:#7E7C7B;
+}
+.res
+{
+    font-size: 4vw;
+}
+@media screen and (max-width: 481px) {
+    h1 {
+        font-size: 15vw;
+    }
+    input
+    {
+        font-size: 2vh;
+    }
+    button {
+        font-size: 5vw;
+        padding: 2vh 5vw;
+    }
+}
+
